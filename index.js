@@ -1,14 +1,13 @@
-// console.log('Hello');
-// console.log('I like pizza');
-// window.alert('This is an alert');
-// window.alert('I like Pizza');
+let x;
+x = 25;
+console.log(x);
 
-document.getElementById("myH1").textContent = 'Hello';
-document.getElementById("myP").textContent = 'Hello';
+let age = 25;
+let price = 10.99;
+let gpa = 2.1;
 
-// This is a comment
+let firstName = "Ernest";
 
-/* This
-is 
-a 
-comment */
+
+console.log(typeof firstName);
+console.log('Your Name is ${firstName}');
